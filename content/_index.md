@@ -96,7 +96,7 @@ The data will be logged in the console.
 
 Try making more queries and subscriptions. Learn to use the intellisense. It helps!
 
-You can add custom paramaters to most funcions. YOu can modify the return value to request custom data instead of the default request.
+You can add custom paramaters to most funcions. You can modify the return value to request custom data instead of the default request.
 
 ```js
 connection.createQuery("Channels", [{status: "LIVE"}, {first: 2}], "edges {node {status, id}}");
